@@ -12,3 +12,10 @@ class buku{
         return this->judul;
     }
 };
+
+int main(){
+    buku bukunya;
+    //chain function calls
+    cout << bukunya.setJudul("Matematika").getjudul();
+    return 0;
+}
